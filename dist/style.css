@@ -143,6 +143,9 @@ html {
     align-items: center;
     height: 85vh;
   }
+  .main .hide-btn {
+    display: block;
+  }
   .main__content {
     order: 1;
   }

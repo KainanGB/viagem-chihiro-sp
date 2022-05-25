@@ -121,6 +121,10 @@ html {
     align-items: center;
     height: 85vh;
 
+    & .hide-btn {
+      display: block;
+    }
+
     &__content {
       order: 1;
     }
