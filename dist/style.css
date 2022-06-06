@@ -143,6 +143,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 76%;
   }
   .main .hide-btn {
     display: block;
