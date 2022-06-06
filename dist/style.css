@@ -98,7 +98,9 @@ html {
 .main__content .subtitle {
   font-size: 1rem;
 }
-.main__content h2, .main__content h1, .main__content p {
+.main__content h2,
+.main__content h1,
+.main__content p {
   margin: 0;
 }
 .main__content .buttons {
@@ -141,7 +143,6 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 85vh;
   }
   .main .hide-btn {
     display: block;

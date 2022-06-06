@@ -3,14 +3,17 @@
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  background-image: linear-gradient(to right, var(--gde-light), var(--gde-dark));
+  background-image: linear-gradient(
+    to right,
+    var(--gde-light),
+    var(--gde-dark)
+  );
   background-repeat: no-repeat;
   background-size: cover;
 }
 html {
   height: -webkit-fill-available;
 }
-
 
 .header {
   display: flex;
@@ -25,15 +28,15 @@ html {
 
 .navbar {
   display: flex;
-  
+
   &__list {
-  display: flex;
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
 
     &__item {
-      margin: 0 .95em;
+      margin: 0 0.95em;
       cursor: pointer;
       img {
         width: 1.25rem;
@@ -47,29 +50,30 @@ html {
   align-items: center;
   flex-direction: column;
   padding: 0 2em;
-  color: var(--white); 
+  color: var(--white);
 
   &__content {
     max-width: 31.875rem;
     order: 2;
 
     & .title {
-      font-size:3.3rem;
+      font-size: 3.3rem;
       font-weight: bolder;
       line-height: 1.2em;
     }
-  
+
     & .author {
       font-size: 1rem;
       font-weight: 700;
-
     }
-    
+
     & .subtitle {
       font-size: 1rem;
     }
-    
-    h2, h1, p {
+
+    h2,
+    h1,
+    p {
       margin: 0;
     }
 
@@ -84,8 +88,7 @@ html {
       }
 
       & .dark-btn {
-        background:var(--green);
-
+        background: var(--green);
       }
 
       button {
@@ -93,7 +96,7 @@ html {
         font-weight: 500;
         max-width: 14.0625rem;
         padding: 1em;
-        background:transparent;
+        background: transparent;
         border: 1px solid var(--green);
         color: var(--white);
         transform: skew(-20deg);
@@ -108,18 +111,16 @@ html {
       }
     }
   }
-  
-  
+
   &__hero {
     order: 1;
     width: 18.75rem;
   }
 
-  @media   (min-width: 768px){
+  @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 85vh;
 
     & .hide-btn {
       display: block;
@@ -130,7 +131,7 @@ html {
     }
 
     & .title {
-      font-size:4.25rem;
+      font-size: 4.25rem;
     }
 
     & .subtitle {
@@ -142,5 +143,4 @@ html {
       width: 31.25rem;
     }
   }
-  
 }
